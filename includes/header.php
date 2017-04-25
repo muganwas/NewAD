@@ -1,5 +1,5 @@
 <link href="../css/main.css" rel="stylesheet" type="text/css">
-<div class="header_main">
+<div class="header_main" id="fixed_header">
 <a href="index.php"><div class="logo"><img src="images/logos/logo1.png" width="151" height="166" alt=""/></div></a>
 <div class="main_nav">
 <ul>
