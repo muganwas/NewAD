@@ -2,13 +2,13 @@
 /* CSS Document */
 
 .main_top{
-	margin: -8px -8px 0 -8px  ;
+	margin: -8px 0 0 0  ;
 	background: url(../images/backgrounds/index_top.jpg);
 	background-repeat: no-repeat;
 	background-position: top left;
 	background-size: cover;
-	height: 100vh;
-	widhth: 100vh;
+	height: 102vh;
+	widhth: 100vw;
 	text-align: center;
 	
 	}
@@ -20,26 +20,91 @@
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 45%;
+	height: auto;
 	}
 .words_main{
 	display: block;
 	text-align:center;
-	font-size: 28px;
+	font-size:50px;
 	font-family: "Kaushan Script";
-	color:#FFFFFF;
+	color:#FFBF00;
 	margin-left: auto;
 	margin-right: auto;
 	}
-.content_main{
-	
-	height: 500px;
+.words_minor{
+	display: block;
+	text-align:center;
+	font-size: 28px;
+	color: #FFFFFF;
 	
 	}
+.content_main{
+	
+	position: relative;
+	display:table;
+	width: 100%;
+	z-index: 1 !important;
+	
+	}
+.featured_head_text{
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	color: #8F8C8C;
+	padding: 10px;
+	text-align:center;
+	
+	}
+.content_main h1 {
+	
+	text-align: center;
+	font-family: 'Roboto', sans-serif; 
+	
+	}
+.content_main h2 {
+	
+	font-family: 'Roboto', sans-serif;
+	text-transform:capitalize; 
+	font-weight: bold;
+	color: #DCA736;
+	
+	}
+.featured_left{
+	position: relative;
+	float: left;
+	padding: 10px 0 20px 20px;
+	display:block;
+	width: 50%;
+	
+	}
+	.featured_left img{
+		display:block;		
+		height:auto;
+		width:95%;
+		
+		
+		}
+.featured_right{
+	position: relative;
+	float: right;
+	padding: 10px 0 20px 20px;
+	display:block;
+	width: 50%;
+	
+	}
+	.featured_right img{
+		display:block;
+		height:auto;
+		width:95%;
+		
+		
+		}
 .down_arrow{
   background:url(../images/backgrounds/down%20arrow.png);
   background-repeat:no-repeat;
   position:absolute;
-  left:49%;
+  left:50%;
   bottom:0;
   margin-top:-25px;
   margin-left:-25px;
@@ -54,5 +119,6 @@
   50%      { bottom:20px; }
   100%     {bottom:0;}
 }
+
 
 
