@@ -2,6 +2,7 @@
 /* CSS Document */
 
 .main_top{
+	
 	margin: -8px 0 0 0  ;
 	background: url(../images/backgrounds/index_top.jpg);
 	background-repeat: no-repeat;
@@ -13,6 +14,7 @@
 	
 	}
 .front{
+	
 	padding-top: 150px;
 	
 	}
@@ -24,6 +26,7 @@
 	height: auto;
 	}
 .words_main{
+	
 	display: block;
 	text-align:center;
 	font-size:50px;
@@ -47,10 +50,38 @@
 	z-index: 1 !important;
 	
 	}
+.featured{
+	
+	padding-top: 30px;
+	
+	}
+.featured_approach{
+	
+	padding-top: 30px;
+	height: auto;
+	overflow: auto;
+	
+	}
+.featured h1{
+	
+	font-weight:bold;
+	font-size: 36px;
+	padding: 10px 0 10px 0;
+	color:#575757;
+	
+	}
+.featured_approach h1{
+	
+	font-weight:bold;
+	font-size: 36px;
+	padding: 10px 0 10px 0;
+	color:#575757;
+	
+	}
 .featured_head_text{
 	
 	font-family: 'Roboto', sans-serif;
-	font-size: 22px;
+	font-size: 18px;
 	color: #8F8C8C;
 	padding: 10px;
 	text-align:center;
@@ -73,28 +104,31 @@
 /* rollover ish */
 
 figure {
+	
     position: relative;
     display: inline-block;
+	text-align: center;
 	
 }
 
 figcaption {
+	
 	font-family: 'Roboto', sans-serif;
 	text-align:center;
     display: none !important;
     position: absolute;
-    left: 0;
+	left: 13%;
     bottom: 45%;
-    right: 0;
    
 }
 figcaption a {
 	
-	font-size: 24px;
+	font-size: 16px;
 	color: #41433A;
 	font-weight:bold;
-	padding: 20px 10px;
-	border: 5px solid #DCA736; 
+	padding: 10px 5px;
+	border: 3px solid #DCA736;
+	
 	
 	}
 
@@ -106,7 +140,7 @@ figure img {
     transition: opacity 0.5s ease-in-out;
 }
 figure:hover img {
-    opacity: .0;
+    opacity: .1;
 	
 	-webkit-transition: opacity 0.5s ease-in-out;
     -moz-transition: opacity 0.5s ease-in-out;
@@ -119,10 +153,11 @@ figure:hover figcaption {
 /**/
 
 .featured_left{
+
 	position: relative;
 	overflow: hidden;
 	float: left;
-	padding: 10px 0 20px 20px;
+	padding: 10px 0 20px 100px;
 	display:block;
 	width: 50%;
 	height: auto;
@@ -131,14 +166,14 @@ figure:hover figcaption {
 	.featured_left img{
 		display:block;		
 		height:auto;
-		width:95%;
+		width:70%;
 		
 		
 		}
 .featured_right{
 	position: relative;
 	float: right;
-	padding: 10px 0 20px 20px;
+	padding: 10px 0 20px 100px;
 	display:block;
 	width: 50%;
 	height: auto;
@@ -147,10 +182,76 @@ figure:hover figcaption {
 	.featured_right img{
 		display:block;
 		height:auto;
-		width:95%;
+		width:70%;
 		
 		
 		}
+.featured_approach figcaption {
+	
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+    display: none !important;
+    position: absolute;
+	left: 13%;
+    bottom: 10%;
+   
+}
+.featured_approach_strategy{
+	
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding: 20px 0 50px 100px;
+	width: 34%;
+	display:block;
+	height: auto;
+	
+	
+}
+	.featred_approach_strategy img{
+
+		display:block;
+		height:auto;
+		width:70% !important;
+
+	}
+.featured_approach_creativity{
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding: 20px 0 50px 50px;
+	width: 30%;
+	display:block;
+	height: auto;
+	
+	
+}
+	.featred_approach_creativity img{
+
+		display:block;
+		height:auto;
+		width:70% !important;
+
+	}
+.featured_approach_technology{
+	
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding: 20px 0 50px 50px;
+	width: 30%;
+	display:block;
+	height: auto;
+	
+	
+}
+	.featred_approach_technology img{
+
+		display:block;
+		height:auto;
+		width:70% !important;
+
+	}
 .down_arrow{
   background:url(../images/backgrounds/down%20arrow.png);
   background-repeat:no-repeat;
@@ -170,6 +271,37 @@ figure:hover figcaption {
   50%      { bottom:20px; }
   100%     {bottom:0;}
 }
+.copy{
 
+	padding: 20px 50px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	clear: both;
+	
+	
+}
+.social{
+	float: left;
+	position: relative;
+	padding: 10px 0 0 50px;
+	
+}
+.social img{
+	
+	width: 80px;
+	height: auto;
+	padding: 10px;
+	
+}
+footer{
+	margin-top: 50px;
+	float: left;
+	width: 100%;
+	padding-top: 50px;
+	background: #464545;
+	color: antiquewhite;
+	bottom: 0;
+	
+}
 
 

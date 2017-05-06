@@ -43,7 +43,7 @@ function MM_swapImage() { //v3.0
 }
 </script>
 </head>
-<body onLoad="MM_preloadImages('images/featured/kampala_sun.png')">
+<body>
 <?php include_once"includes/header.php" ?>
 <div class="main_top">
 
@@ -58,7 +58,36 @@ function MM_swapImage() { //v3.0
 <a href="#"><div class="down_arrow"></div></a>
 </div>
 <main class="content_main">
-<div class="featured_jobs">
+<div class="featured_approach">
+<h1>Our Approach</h1>
+<div class="featured_head_text">
+At Alien Dynamics we don't just give you a template, we take to understand you and your brands needs, the rest is history...
+</div>
+
+<div class="featured_approach_strategy">
+<h2>Strategy</h2>
+<figure>
+<img src="images/icons/strategy.png" alt="Strategy"/>
+<figcaption ><a href="#">Originality &amp; Marketing strategies</a></figcaption>
+</figure>
+</div>
+<div class="featured_approach_creativity">
+<h2>Creativity</h2>
+<figure>
+<img src="images/icons/creativity.png" alt="Creativity"/>
+<figcaption ><a href="#">Creative Artistry, vision and flair</a></figcaption>
+</figure>
+</div>
+<div class="featured_approach_technology">
+<h2>Technology</h2>
+<figure>
+<img src="images/icons/technology.png" alt="Technology"/>
+<figcaption ><a href="#">Constant research and exploration</a></figcaption>
+</figure>
+</div>
+</div>
+
+<div class="featured">
 <h1>Featured Work</h1>
 
 <div class="featured_head_text">
@@ -88,12 +117,15 @@ We are a Kampala based web developement company with brilliant web designers and
 <div class="featured_right">
 <h2>Acacia School</h2>
 <figure>
-<img src="images/featured/acacia_school.png" alt="kampala sun"/>
-<figcaption ><a href="#">School Website: Acacia School</a></figcaption>
+  <img src="images/featured/acacia_school.png" alt="kampala sun"/>
+  <figcaption ><a href="#">School Website: Acacia School</a></figcaption>
 </figure>
 </div>
 </div>
+
 </main>
+
+<?php include_once "includes/footer.php"; ?>
 
 </body>
 </html>
