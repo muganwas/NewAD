@@ -71,7 +71,7 @@
 .featured_approach figcaption a {
 	
 	font-size: 16px;
-	color:antiquewhite;
+	color: #090909;
 	font-weight:bold;
 	padding: 10px 5px;
 	border: 3px solid #DCA736;
@@ -92,6 +92,16 @@
 	font-size: 36px;
 	padding: 10px 0 10px 0;
 	color:#575757;
+	
+	}
+.featured_approach .featured_head_text{
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color:#171717;
+	font-weight: 400;
+	padding: 10px;
+	text-align:center;
 	
 	}
 .featured_head_text{
@@ -133,11 +143,11 @@ figcaption {
 	text-align:center;
     display: none !important;
     position: absolute;
-	left: 13%;
+	left: 5%;
     bottom: 45%;
    
 }
-figcaption a {
+.featured figcaption a {
 	
 	font-size: 16px;
 	color: antiquewhite;
@@ -172,15 +182,17 @@ figure:hover figcaption {
 
 	position: relative;
 	overflow: hidden;
+	background: #191919;
 	float: left;
-	padding: 10px 0 20px 100px;
+	padding: 10px 0 20px 150px;
+	margin: 10px;
 	display:block;
-	width: 50%;
+	width: 48%;
 	height: auto;
 	
 	}
 	.featured_left img{
-		display:block;		
+		display:block;
 		height:auto;
 		width:70%;
 		
@@ -189,9 +201,11 @@ figure:hover figcaption {
 .featured_right{
 	position: relative;
 	float: right;
-	padding: 10px 0 20px 100px;
+	background: #191919;
+	padding: 10px 0 20px 150px;
+	margin: 10px;
 	display:block;
-	width: 50%;
+	width: 48%;
 	height: auto;
 	
 	}
