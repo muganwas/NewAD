@@ -41,7 +41,9 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
+
 </script>
+
 </head>
 <body>
 <?php include_once"includes/header.php" ?>
@@ -55,13 +57,13 @@ function MM_swapImage() { //v3.0
 </div>
 <img src="images/icons/index_image.png" alt="web and mobile apps"/>
 </div>
-<a href="#"><div class="down_arrow"></div></a>
+<a href="#approach"><div class="down_arrow"></div></a>
 </div>
 <main class="content_main">
-<div class="featured_approach">
+<div class="featured_approach"><a name="approach"></a>
 <h1>Our Approach</h1>
 <div class="featured_head_text">
-At Alien Dynamics we don't just give you a template, we take to understand you and your brands needs, the rest is history...
+	At Alien Dynamics we don't just give you a template, we take to understand you and your brands needs, the rest is history...
 </div>
 
 <div class="featured_approach_strategy">
@@ -126,6 +128,14 @@ We are a Kampala based web developement company with brilliant web designers and
 </main>
 
 <?php include_once "includes/footer.php"; ?>
-
+<script type="text/javascript">
+	
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+    }, 500);
+    return false;
+});
+</script>
 </body>
 </html>
