@@ -99,28 +99,28 @@ We are a Kampala based web developement company with brilliant web designers and
 <h2>kampala sun</h2>
 <figure>
 <img src="images/featured/da_sun.png" alt="kampala sun"/>
-<figcaption ><a href="#">Ugandas Leading Online Tabloid</a></figcaption>
+<figcaption ><a href="http://kampalasun.co.ug" target="new">Ugandas Leading Online Tabloid</a></figcaption>
 </figure>
 </div>
 <div class="featured_right">
 <h2>vision group</h2>
 <figure>
 <img src="images/featured/vision_group.png" alt="kampala sun"/>
-<figcaption ><a href="#">Corporate Website: Vision Group</a></figcaption>
+<figcaption ><a href="http://visiongroup.co.ug" target="new">Corporate Website: Vision Group</a></figcaption>
 </figure>
 </div>
 <div class="featured_left">
 <h2>vision Printing</h2>
 <figure>
 <img src="images/featured/vision_printing.png" alt="kampala sun"/>
-<figcaption ><a href="#">Corporate Website: Vision Printing</a></figcaption>
+<figcaption ><a href="http://visiongroup.co.ug/printing/" target="new">Corporate Website: Vision Printing</a></figcaption>
 </figure>
 </div>
 <div class="featured_right">
 <h2>Acacia School</h2>
 <figure>
   <img src="images/featured/acacia_school.png" alt="kampala sun"/>
-  <figcaption ><a href="#">School Website: Acacia School</a></figcaption>
+  <figcaption ><a href="http://acacia.co.ug" target="new">School Website: Acacia School</a></figcaption>
 </figure>
 </div>
 </div>
