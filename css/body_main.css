@@ -335,6 +335,10 @@ footer .location {
 	float: left;
 	padding: 5px 0 0 50px;
 	color: #DCA736;
+	background: url(../images/icons/home.png);
+	background-repeat: no-repeat;
+	background-position: 10px 20px;
+	
 }
 footer{
 	padding-top: 50px;
