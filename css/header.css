@@ -28,6 +28,10 @@
 	height: 83px;
 	
 	}
+
+@media(min-width: 786px ){
+	
+	
 .main_nav{
 	
 	float: right;
@@ -121,3 +125,15 @@
 	display:block;
 	cursor: pointer;
 	}
+}
+@media(max-width: 785px ){
+	
+	
+	.main_nav{
+	
+	display: none;
+	
+	}
+	
+	
+}

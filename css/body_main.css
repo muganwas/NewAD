@@ -191,7 +191,7 @@ figure:hover figcaption {
 	height: auto;
 	
 	}
-	.featured_left img{
+.featured_left img{
 		display:block;
 		height:auto;
 		width:90%;
@@ -208,7 +208,7 @@ figure:hover figcaption {
 	height: auto;
 	
 	}
-	.featured_right img{
+.featured_right img{
 		display:block;
 		height:auto;
 		width:90%;
@@ -237,7 +237,7 @@ figure:hover figcaption {
 	
 	
 }
-	.featred_approach_strategy img{
+.featred_approach_strategy img{
 
 		display:block;
 		height:auto;
@@ -255,7 +255,7 @@ figure:hover figcaption {
 	
 	
 }
-	.featred_approach_creativity img{
+.featred_approach_creativity img{
 
 		display:block;
 		height:auto;
@@ -300,54 +300,6 @@ figure:hover figcaption {
   50%      { bottom:20px; }
   100%     {bottom:0;}
 }
-.copy{
 
-	padding: 20px 50px;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	clear: both;
-	
-	
-}
-.social{
-	float: left;
-	position: relative;
-	padding: 10px 0 0 50px;
-	
-}
-.social img{
-	
-	width: 80px;
-	height: auto;
-	padding: 10px;
-	
-}
-footer h1{
-	
-	font-size: 20px;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: antiquewhite;
-}
-footer .location {
-	
-	font-family: 'Roboto', sans-serif;
-	float: left;
-	padding: 5px 0 0 50px;
-	color: #DCA736;
-	background: url(../images/icons/home.png);
-	background-repeat: no-repeat;
-	background-position: 10px 20px;
-	
-}
-footer{
-	padding-top: 50px;
-	float: left;
-	width: 100%;
-	background: #464545;
-	color: antiquewhite;
-	bottom: 0;
-	
-}
 
 

@@ -53,7 +53,7 @@ function MM_swapImage() { //v3.0
 <div class="front">
 <div class="words_main">
   <p>App Developement is us, </p>
-  <span class="words_minor">Pc or Mobile</span>
+  <span class="words_minor">Desktop or Mobile</span>
 </div>
 <img src="images/icons/index_image.png" alt="web and mobile apps"/>
 </div>
