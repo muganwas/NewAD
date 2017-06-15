@@ -37,7 +37,7 @@ function MM_swapImage() { //v3.0
 
 <link href="../css/main.css" rel="stylesheet" type="text/css">
 <div class="header_main" id="fixed_header">
-<a href="index.php"><div class="logo"><img src="images/logos/logo1.png" width="151" height="166" alt=""/></div></a>
+<a href="<?php echo $root_folder; ?>"><div class="logo"><img src="<?php echo $root_folder.'images/logos/logo1.png'; ?>" width="151" height="166" alt=""/></div></a>
 <div class="main_nav">
 <ul>
 <li>
@@ -51,7 +51,7 @@ Services
 <div class="ul_li">
 <ul>
 <li>
-<a href="#">Web Design</a>
+<a href="<?php echo $root_folder.'web_design/';?>">Web Design</a>
 </li>
 <li>
 <a href="#">Web Developement</a>

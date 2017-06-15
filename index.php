@@ -11,6 +11,6 @@
 <?php include_once 'includes/header.php';?>
 <?php include_once 'includes/home_lead.php';?>
 <?php include_once 'includes/main_content.php';?>
-<?php include_once 'includes/footer.php'; ?>
+<?php include_once 'includes/footer.php';?>
 </body>
 </html>
