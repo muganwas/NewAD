@@ -301,5 +301,42 @@ figure:hover figcaption {
   100%     {bottom:0;}
 }
 
+.web_design_header {
+	
+	padding-top: 150px;
+	background-color: #212020;
+	background-image: url(../images/featured/web_design.png);
+	background-position:  0 150px;
+	background-repeat: no-repeat;
+	height: 700px;
+	background-size:contain;
+
+	
+}
+
+.web_design_header img{
+		
+	
+	display: block;
+	width: 100%;
+	height: 100vh;
+	z-index: 1;
+	
+	
+}
+.web_design_header .words_main{
+	
+	top: -40px;
+	position: relative;
+	padding-bottom: 10px;
+	background-color: #212020;
+	display: block;
+	height: auto;
+	width: 280px;
+	box-shadow: 7px 7px 5px #242424;
+	
+	
+}
+
 
 

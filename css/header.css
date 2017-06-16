@@ -38,6 +38,7 @@
 	position: relative;
 	width: 500px;
 	
+	
 	}
 	
 .main_nav ul{ 
@@ -80,6 +81,7 @@
 	background: url(../images/backgrounds/up_arrow.png);
 	background-position: 50px top;
 	background-repeat: no-repeat;
+	
 	display:block;
 	margin-top: -1px;
 	margin-left: -45px;
@@ -101,6 +103,8 @@
 	width: 200px;
 	padding:5px 0 10px 10px;
 	z-index: 3;
+	box-shadow: 3px 7px 7px #000000;
+	
 	
 	}
 .main_nav ul li ul li a{
@@ -124,6 +128,9 @@
 	padding:0;
 	display:block;
 	cursor: pointer;
+	z-index: 1000;
+	
+	
 	}
 }
 @media(max-width: 785px ){
